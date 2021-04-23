@@ -215,7 +215,7 @@ def clip_based_on_dips(video, duration, threshold, count=10):
 #     return mega_clipped
 modifiedClip = video.fl( convexHullFX )
 # preview_fix(modifiedClip)
-modifiedClip.write_videofile("geometry_class.webm", audio=True)
+modifiedClip.write_videofile("geometry_class.mp4", audio=True)
 
 # preview_fix(clip_based_on_peaks(video, 2, 0.8))
 # preview_fix(clip_based_on_peaks(video, 0.1, 0.92, count=50))
